@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleurish</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- LINK ICON -->
+    <link rel="icon" href="img/logoW.png">
+    <!-- LINK FONT -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="img/logoW.png" class="logo" alt="Angel-Shop" width="100px"></a>
+        <nav>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <!-- CONTENT -->
+    <main>
+        <!-- HOME PAGE -->
+        <section id="hero" class="bg-cover bg-center h-screen flex justify-between items-center px-20" style="background-image: url('img/Home3.jpeg');">
+            <div class="description flex flex-col">
+                <h1 class="text-5xl md:text-6xl font-light leading-tight text-white">Wellcome Fresh Flowers<br>
+                    Natural & Beautiful Flowers</h1>
+                <p class="mt-4 text-lg text-yellow-200">"Discover the beauty and diversity of flowers. 
+                    <br>From vibrant blooms to delicate petals, each flower tells a unique story and brings nature's charm closer to your heart."</p>
+    
+                <div class="ctn-button mt-6">
+                    <button class="bg-yellow-800 text-yellow-200 font-semibold px-6 py-3 rounded-md transition-all hover:bg-yellow-700 hover:text-yellow-100">
+                        <span class="relative inline-block">BUY NOW</span>
+                        <span class="absolute top-1/2 transform -translate-y-1/1 right-4 opacity-0 group-hover:opacity-100 group-hover:right-6 transition-all">»</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--About us-->
+        <div class="max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8">
+            <section class="flex flex-col md:flex-row justify-between items-center gap-10">
+                <!-- Content Section -->
+                <div class="flex-1">
+                    <div class="relative">
+                        <h1 class="text-4xl font-bold text-gray-500 mb-8">ABOUT US</h1>
+                        <!-- Underline -->
+                        <div class="absolute bottom-0 left-0 w-24 h-1 bg-yellow-100 md:left-0 left-1/2 md:transform-none transform -translate-x-1/2"></div>
+                    </div>
+    
+                    <h2 class="text-2xl text-gray-700 mb-5 leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                    </h2>
+    
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+    
+                    <a href="#" class="inline-block px-8 py-3 bg-yellow-800 text-white font-bold rounded-md mb-8 hover:bg-yellow-600 transition-colors duration-300">
+                        READ MORE
+                    </a>
+                    <!-- Social Links -->
+                    <div class="flex gap-4 md:justify-start justify-center">
+                        <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center border border-gray-200 hover:bg-gray-50 transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-gray-700"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center border border-gray-200 hover:bg-gray-50 transition-colors duration-300">
+                            <i class="fab fa-twitter text-gray-700"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center border border-gray-200 hover:bg-gray-50 transition-colors duration-300">
+                            <i class="fab fa-instagram text-gray-700"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Image Section -->
+                <div class="flex-1">
+                    <img 
+                        src="img/bungan carnation (1).jpeg" 
+                        alt="Professional at desk" 
+                        class="w-full max-w-lg mx-auto rounded-lg shadow-lg"
+                    >
+                </div>
+            </section>
+        </div>
+        <!-- FEATURED PRO -->
+        <section id="product1" class="section-p1">
+            <h2>Popular products</h2>
+            <p>New Collections December</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/mawar.png" alt="">
+                    <div class="des">
+                        <span>COCO</span>
+                        <h5>Roses Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp300.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/pink.png" alt="">
+                    <div class="des">
+                        <span>COCO</span>
+                        <h5>Sakura PW-Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp300.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/lidah.png" alt="">
+                    <div class="des">
+                        <span>COCO</span>
+                        <h5>Fall Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp310.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/kuning.png" alt="">
+                    <div class="des">
+                        <span>COCO</span>
+                        <h5>Scenery Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp350.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/bunga matahari (3).jpeg" alt="">
+                    <div class="des">
+                        <span>COCO</span>
+                        <h5>Beach Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp300.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/buket3.png" alt="" style="background-color: #F1F1F1;">
+                    <div class="des">
+                        <span>COCO</span>
+                        <h5>Pineglasses Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp300.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/buket6.png" alt="">
+                    <div class="des">
+                        <span>RMBW</span>
+                        <h5>Two CRL Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp400.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/buket2.png" alt="">
+                    <div class="des">
+                        <span>Grly</span>
+                        <h5>Long sleeve shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <H4>Rp280.000</H4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- REVISI -->
+        <!-- BEST SELLERS -->
+        <section id="product1" class="best-sellers section-p1">
+            <h2>BOUQUET</h2>
+            <p>Special Addition</p>
+            <div class="best-container">
+                <div class="slider-wrapper">
+                    <button id="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
+                    <div class="image-list">
+                        <div class="pro">
+                            <img src="img/bunga_matahari-removebg-preview.png" alt="">
+                            <div class="des">
+                                <span>Grly</span>
+                                <h5>Pinky Sweater</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp250.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+
+                        <div class="pro">
+                            <img src="img/buket3.png" alt="">
+                            <div class="des">
+                                <span>Grly</span>
+                                <h5>Hawaiian T-Shirts</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp250.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+
+                        <div class="pro">
+                            <img src="img/bunga peony (2).jpeg" alt="">
+                            <div class="des">
+                                <span>Grly</span>
+                                <h5>BlackPink Suit</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp350.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+
+                        <div class="pro">
+                            <img src="img/aesthetic.jpeg" alt="">
+                            <div class="des">
+                                <span>RMBW</span>
+                                <h5>Bluesky Shirt</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp300.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+
+                        <div class="pro">
+                            <img src="img/bunga anggrek.jpeg" alt="">
+                            <div class="des">
+                                <span>RMBW</span>
+                                <h5>Cinnamon Shirts</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp400.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+
+                        <div class="pro">
+                            <img src="img/mawar.png" alt="" style="background-color: #F1F1F1;">
+                            <div class="des">
+                                <span>FWS</span>
+                                <h5>Fabric pants</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp200.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+
+                        <div class="pro">
+                            <img src="img/buket4.png" alt="sembilan">
+                            <div class="des">
+                                <span>BBY</span>
+                                <h5>Pinky Shoes </h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp180.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+
+                        <div class="pro">
+                            <img src="img/bbig.png" alt="">
+                            <div class="des">
+                                <span>RMBW</span>
+                                <h5>Polo Shirt</h5>
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <H4>Rp400.000</H4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                        </div>
+            </div>
+        </section>
+        <section id="product1" class="best-sellers section-p1">
+            <div class="best-container">
+                <div class="garis"></div>
+        <section class="profile section-p1>
+        <section class="profile section-p1">
+            <div class="smallContainer">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fas fa-quote-left quoteicon"></i>
+                        <p>Aku senang banget memesan bunga di Fleurish karena bunganya Fresh dan wangi banget</p>
+                        <img src="img/gambar2.jpeg" alt="Our User">
+                        <h3>Rose pretty</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-quote-left quoteicon"></i>
+                        <p>Pacar aku sangat senang ketika aku beliin bunga di Fleurish karena bunganya Fresh dan wangi banget. Pengirimannya juga sangay cepat</p>
+                        <img src="img/gambar1.jpeg" alt="Our User">
+                        <h3>Steven Alexander</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-quote-left quoteicon"></i>
+                        <p>Kata temen aku bunga bunga di Fleurish sangat wangi dan Fresh karena itu aku sekarang berlangganan beli bunga di Fleurish</p>
+                        <img src="img/gambar3.jpeg" alt="Our User">
+                        <h3>Aisyha</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- NEWSLETTER -->
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur <span>adipisicing</span></p>
+            </div>
+            <div class="form">
+                <input type="email" placeholder="Your email address">
+                <button class="normal">Sign Up</button>
+            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Flex Container for Pendiri -->
+    <div class="flex justify-center gap-20 mb-8">
+        <!-- Pendiri 1 -->
+        <div class="flex flex-col items-center">
+          <img src="img/Angel.jpeg" alt="Angelina Febriani Madesen" 
+              class="w-40 h-40 object-cover transition-transform duration-300 hover:translate-y-2 mb-4">
+          <div class="text-center">
+            <h3 class="text-lg font-bold text-[#8C7D4E]">Angelina Febriani Madesen</h3>
+            <p class="text-sm text-[#8C7D4E]">F55123084</p>
+            <p class="text-sm text-[#8C7D4E]">Teknik Informatika</p>
+          </div>
+        </div>
+  
+        <!-- Pendiri 2 -->
+        <div class="flex flex-col items-center">
+          <img src="img/Isti.jpg" alt="Isti Zahra Katili" 
+              class="w-40 h-40 object-cover transition-transform duration-300 hover:translate-y-2 mb-4">
+          <div class="text-center">
+            <h3 class="text-lg font-bold text-[#8C7D4E]">Isti Zahra Katili</h3>
+            <p class="text-sm text-[#8C7D4E]">F55123090</p>
+            <p class="text-sm text-[#8C7D4E]">Teknik Informatika</p>
+          </div>
+        </div>
+  
+        <!-- Pendiri 3 -->
+        <div class="flex flex-col items-center">
+          <img src="img/Rayyan.jpeg" alt="Muhamad Rayyan Nazmudin" 
+              class="w-40 h-40 object-cover transition-transform duration-300 hover:translate-y-2 mb-4">
+          <div class="text-center">
+            <h3 class="text-lg font-bold text-[#8C7D4E]">Muhamad Rayyan Nazmudin</h3>
+            <p class="text-sm text-[#8C7D4E]">F55123076</p>
+            <p class="text-sm text-[#8C7D4E]">Teknik Informatika</p>
+          </div>
+        </div>
+      </div>
+            <!-- FOOTER -->
+    <footer id="fot" class="bg-gray-100 flex flex-col py-16 px-4">
+        <div class="flex flex-wrap justify-between">
+            <div class="flex flex-col items-center mb-8">
+                <div class="logo">
+                    <img src="img/logoH.png" alt="" class="w-24">
+                </div>
+            </div>
+            <div class="flex flex-col items-start mb-8">
+                <h4 class="text-lg font-semibold pb-5 text-black">ABOUT</h4>
+                <div class="flex flex-col space-y-3">
+                    <a href="#fot" class="text-gray-600 hover:text-red-500 transition">About us</a>
+                    <a href="#fot" class="text-gray-600 hover:text-red-500 transition">Delivery Information</a>
+                    <a href="#fot" class="text-gray-600 hover:text-red-500 transition">Privacy Policy</a>
+                    <a href="#fot" class="text-gray-600 hover:text-red-500 transition">Terms & Condition</a>
+                    <a href="#fot" class="text-gray-600 hover:text-red-500 transition">Contact Us</a>
+                </div>
+            </div>
+    
+            <div class="flex flex-col items-start mb-8">
+                <h4 class="text-lg font-semibold pb-5 text-black">FOLLOW US</h4>
+                <ul class="space-y-3">
+                    <li><a href="#fot" class="text-gray-600 hover:text-red-500 transition">Facebook</a></li>
+                    <li><a href="#fot" class="text-gray-600 hover:text-red-500 transition">Twitter</a></li>
+                    <li><a href="#fot" class="text-gray-600 hover:text-red-500 transition">Instagram</a></li>
+                    <li><a href="#fot" class="text-gray-600 hover:text-red-500 transition">Pinterest</a></li>
+                    <li><a href="#fot" class="text-gray-600 hover:text-red-500 transition">YouTube</a></li>
+                </ul>
+            </div>
+    
+            <div class="flex flex-col items-start mb-8">
+                <h4 class="text-lg font-semibold pb-5 text-black">PAYMENT METHOD</h4>
+                <div class="flex gap-2">
+                    <img src="img/Visa_Logo_PNG-removebg-preview (1).png" alt="visa" class="w-10 h-auto rounded border border-gray-400 hover:scale-110 transition">
+                    <img src="img/OVO_Logo_vector___cdr_-removebg-preview.png" alt="payPal" class="w-10 h-auto rounded border border-gray-400 hover:scale-110 transition">
+                    <img src="img/Master_Card_SVG_logo-removebg-preview.png" alt="masterCard" class="w-10 h-auto rounded border border-gray-400 hover:scale-110 transition">
+                    <img src="img/bit koin.png" alt="bitCoin" class="w-10 h-auto rounded border border-gray-400 hover:scale-110 transition">
+                </div>
+            </div>
+        </div>
+    
+        <div class="text-center mt-8">
+            <hr class="border-t border-gray-300 my-6">
+            <p class="text-sm text-gray-500">Copyright &copy; 2024 - Angelina Febriani Madesen - Isti Zahra Katili - Muhamad Rayyan Nazmudin -</p>
+        </div>
+    </footer>
+</body>

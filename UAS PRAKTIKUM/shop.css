@@ -1,0 +1,248 @@
+#page-header {
+    background-image: url(img/product/banner/bn.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 1290px;
+    height: 40vh;
+    min-width: 100%;
+    /* filter: grayscale(40%); */
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2,
+    p {
+        color: #fff;
+    }
+}
+eader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    background: #355f2e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    height: 12vh;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.profile{
+	padding: 100px;
+}
+.profile .col-3{
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+	cursor: pointer;
+	transition: transform .5s;
+	margin-bottom: 20px;
+}
+.profile .col-3 img{
+	width: 70px;
+	margin-top: 20px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+}
+.profile .col-3:hover{
+	transform: translateY(-10px);
+}
+.profile .col-3 .quoteicon{
+	font-size: 34px;
+	color: #ff523b;
+}
+.profile .col-3 p{
+	font-size: 12px;
+	margin: 12px 0;
+	color: #777;
+}
+.profile .col-3 h3{
+	font-size: 16px;
+	font-weight: 600;
+	color: #555;
+	margin: 12px 0 0;
+}
+/* END PROFILE */
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/product/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #8C7D4E;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f3c955;
+}
+
+#newsletter p span {
+    color: #f3c955;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter .form input {
+    width: 100%;
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter .form button {
+    background-color: #fe4c50;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    transition: 0.2s ease;
+}
+
+#newsletter .form button:hover {
+    background-color: #ac2628;
+}
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: thin;
+    color: #f4e0af;
+    transition: 0.3s ease;
+}
+
+#navbar a[id="close"] {
+    display: none;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #fe4c50;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #fe4c50;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#navbar li .fa-solid {
+    font-size: 1.5rem;
+}
+
+#mobile {
+    display: none;
+    align-items: center;
+}
+#pagination {
+    text-align: center;
+    a {
+        text-decoration: none;
+        background-color: #fe4c50;
+        padding: 15px 20px;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: 600;
+    }
+    i {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+/* SINGLE PRODUCT */
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+    h4 {
+        padding: 40px 0 20px 0;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    select {
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    input {
+        width: 50px;
+        height: 47px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    input:focus {
+        outline: none;
+    }
+    button {
+        background: #fe4c50;
+        color: #fff;
+    }
+    span {
+        line-height: 25px;
+    }
+}
